@@ -1,0 +1,95 @@
+.small-caps{
+	font-variant-caps: all-small-caps;
+	color: rgb(17,17,17);
+	font-size: 28px;
+	line-height: 32px;
+}
+.more{
+	font-size: 17px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+.more::before {
+    content: " ";
+}
+ .more::after {
+    padding-left: .3em;
+    top: 0;
+	content: ">"   ;
+}
+ .more::before, .more::after {
+    font-family: "SF Pro Icons";
+    color: inherit;
+    display: inline-block;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: 1;
+    text-decoration: underline;
+    position: relative;
+    z-index: 1;
+    alt: '';
+}
+ .more::before, .more::after {
+    text-decoration: none;
+}
+.subheadone{
+	font-size: 17px;
+    line-height: 1.33349;
+    font-weight: 400;
+    letter-spacing: .009em;
+	margin-top: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #111111;
+}
+.headlineone{
+    max-width: 448px;
+	font-size: 32px;
+    line-height: 1.4em;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+   
+}
+.typography-callout {
+    font-size: 32px;
+    line-height: 1.125em;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.typography-back-to-school-headline {
+    font-size: 40px;
+    line-height: 1.08365em;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.typography-intro {
+	 margin-top: 10px;
+	color:#333333;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.promo-headline {
+    max-width: 445px;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+ .promo-intro {
+    color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 430px;
+	margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.47059;
+    font-weight: 400;
+	text-align: left;
+}
