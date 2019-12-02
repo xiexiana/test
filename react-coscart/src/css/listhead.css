@@ -1,0 +1,28 @@
+.listheader{
+	background: #EE9900;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+}
+.head{
+	padding: 10px 0px;
+	position: relative;
+	width: 100%;
+}
+.head input{
+	width: 65%;
+	height: 30px;
+	border-radius: 30px;
+	border: 0;
+	padding-left: 50px;
+}
+.head input:focus,.head button:focus{
+	outline: none;
+}
+.head button{
+	position: absolute;
+	top:16px;
+	left: 19%;
+	background-color: transparent;
+	border: 0;
+}
